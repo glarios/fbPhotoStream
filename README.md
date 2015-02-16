@@ -3,10 +3,7 @@
 <p>It has a a few design options like grid, collage, or circle mode, but you can customize the look to match your needs by adding your own CSS. You can pass several formatting options including width, height, etc., as well as setting whether you want to show captions or link back to Facebook.</p>
 <p>All you need to do is include the plugin file into your webpage, create a target wrapper element, and pass that element's id into the method.</p>
 <h2>Demo</h2>
-<h3>Grid example (default)</h3>
-<a href="#">See collage example.</a>
-<a href="#">See circle example.</a>
-<a href="#">See raw example.</a>
+<a href="http://www.gerardolarios.com/facebook-photo-stream/">View demo.</a>
 <h2>Required Files</h2>
 <ol>
   <li><a href="http://www.jquery.com/" target="_blank">jQuery Core JavaScript Library</a></li>
