@@ -30,7 +30,8 @@ $(document).ready(function(){
 </script></code></pre>
 
 <h2>Configuration</h2>
-		<p>fbPhotoStream is pretty much ready to go, and the only necessary parameter to get started is the <code>album id</code>. There are several additional options that you can use to match your needs. Pass these options as an object into the <code>fbPhotoStream()</code> method like this:</p>
+<p> fbPhotoStream is pretty much ready to go, and the only necessary parameter to get started is the <code>album id</code>. There are several additional options that you can use to match your needs. Pass these options as an object into the <code>fbPhotoStream()</code> method like this:</p>
+
 <pre><code>$('#fbPhotoStream').fbPhotoStream({ 
     album:'10152554461003426',
     count:5,
@@ -57,4 +58,3 @@ $(document).ready(function(){
 <p>fbPhotoStream is free to use under the <a href="http://jquery.org/license" target="_blank">MIT/GPL</a> license for any application.</p>
 <h2>Author</h2>
 <p>This plugin was written by <a href="http://www.gerardolarios.com" target="_blank">Gerardo Larios</a>.</p>
-</div>
