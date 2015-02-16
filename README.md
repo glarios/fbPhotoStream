@@ -40,7 +40,7 @@ $(document).ready(function(){
 <h2>Options</h2>
 | Property      | Type          | Default  | Description |
 | ------------- |:-------------:| -------- | ----------- |
-|album|string|<strong>No default, must be set as option.</strong>|The id of the Facebook photo album. See how to get that <a href="http://www.gerardolarios.com/facebook-photo-stream#how-to-use">here</a>.|
+|album|string|<strong>No default, must be set as option.</strong>|The id of the Facebook photo album. See how to get that <a href="#how-to-use">here</a>.|
             |display|string|grid|Preset display formats. Options include 'grid','collage', or 'circle'.|
 			|displayWidth|string|200px|Width of the images used in one of the display presets.|
 			|displayHeight|string|200px|Height of the images used in one of the display presets.|
