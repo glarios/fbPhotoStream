@@ -18,7 +18,7 @@
 <h2 id="how-to-use">How to Use</h2>
 <ol>
   <li>First, make sure that your Facebook photo album is public. You can change the privacy settings by following <a href="https://www.facebook.com/help/215496745135618" target="_blank">this documentation</a>.</li>
-  <li>Next, you need to get the album id. You can get this by clicking on the album in Facebook, then from the URL copy the number that is between the "photos/a." and the next "." (highlighted in blue in the image below).<br><img src="../img/fburl.jpg" /></li>
+  <li>Next, you need to get the album id. You can get this by clicking on the album in Facebook, then from the URL copy the number that is between the "photos/a." and the next "." (highlighted in blue in the image below).<br><img src="https://github.com/glarios/fbPhotoStream/blob/master/fburl.jpg" /></li>
   <li>Create an empty wrapper element, in this case a <code>&lt;div&gt;</code>, and assign a unique id or class to it. Then pass that id into the fbPhotoStream() method along with the album id.</li>
 </ol>
 
