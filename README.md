@@ -3,11 +3,11 @@
 <p>It has a a few design options like grid, collage, or circle mode, but you can customize the look to match your needs by adding your own CSS. You can pass several formatting options including width, height, etc., as well as setting whether you want to show captions or link back to Facebook.</p>
 <p>All you need to do is include the plugin file into your webpage, create a target wrapper element, and pass that element's id into the method.</p>
 <h2>Demo</h2>
-<a href="http://www.gerardolarios.com/fb-photo-stream#demo" target="_blank">View demo.</a>
+<a href="http://www.gerardolarios.com/plugins-and-tools/fb-photo-stream#demo" target="_blank">View demo.</a>
 <h2>Required Files</h2>
 <ol>
   <li><a href="http://www.jquery.com/" target="_blank">jQuery Core JavaScript Library</a></li>
-  <li><a href="http://www.gerardolarios.com/fb-photo-stream/js/fb-photo-stream.min.js" target="_blank">fb-photo-stream.min.js</a></li>
+  <li><a href="http://www.gerardolarios.com/plugins-and-tools/fb-photo-stream/js/fb-photo-stream.min.js" target="_blank">fb-photo-stream.min.js</a></li>
 </ol>
 <p>Include the above files into your webpage and invoke the <code>fbPhotoStream()</code> method.</p>
 <p>Remember, you can add your own CSS to style the results to match your needs in "raw" display mode.</p>
