@@ -20,16 +20,16 @@
 </ol>
 
 <pre><code><div id="fbPhotoStream"></div>
-<script type="text/javascript">		
-$(document).ready(function(){ 
-    $('#fbPhotoStream').fbPhotoStream(); 
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#fbPhotoStream').fbPhotoStream();
 });
 </script></code></pre>
 
 <h2>Configuration</h2>
 <p> fbPhotoStream is pretty much ready to go, and the only necessary parameter to get started is the <code>album id</code>. There are several additional options that you can use to match your needs. Pass these options as an object into the <code>fbPhotoStream()</code> method like this:</p>
 
-<pre><code>$('#fbPhotoStream').fbPhotoStream({ 
+<pre><code>$('#fbPhotoStream').fbPhotoStream({
     album:'10152554461003426',
     count:5,
     format:'ul'
@@ -39,17 +39,15 @@ $(document).ready(function(){
 | Property      | Type          | Default  | Description |
 | ------------- |:-------------:| -------- | ----------- |
 |album|string|<strong>No default, must be set as option.</strong>|The id of the Facebook photo album. See how to get that <a href="#how-to-use">here</a>.|
-            |display|string|grid|Preset display formats. Options include 'grid','collage', or 'circle'.|
-			|displayWidth|string|200px|Width of the images used in one of the display presets.|
-			|displayHeight|string|200px|Height of the images used in one of the display presets.|
-			|count|integer|25 (maximum allowed by Facebook).|The number of photos to display. Facebook puts a limit of 25.|
-            |linked|boolean|true|Whether or not the image links back to itself in Facebook.|
-            |theClass|string|No default.|Allows for classes to be assigned to the elements created. If adding multiple, separate by spaces like such:<br><code>theClass:'row feature pull-left'</code>.|
-            |format (used only with display:'raw')|string|ul|The format in which the results are displayed. Options are 'ul','div', or 'none'. Using 'none' outputs the image tag in an anchor, or just the image tag by itself (depending on whether 'linked' is set to false).|
-			|size (used only with display:'raw')|string|medium|The size of the images returned by Facebook. Options are 'large','medium', or 'small'.|
-			|caption (used only with display:'raw')|boolean|false|Whether to include the image caption or not.|
+|display|string|grid|Preset display formats. Options include 'grid','collage', or 'circle'.|
+|displayWidth|string|200px|Width of the images used in one of the display presets.|
+|displayHeight|string|200px|Height of the images used in one of the display presets.|
+|count|integer|25 (maximum allowed by Facebook).|The number of photos to display. Facebook puts a limit of 25.|
+|linked|boolean|true|Whether or not the image links back to itself in Facebook.|
+|theClass|string|No default.|Allows for classes to be assigned to the elements created. If adding multiple, separate by spaces like such:<br><code>theClass:'row feature pull-left'</code>.|
+|format (used only with display:'raw')|string|ul|The format in which the results are displayed. Options are 'ul','div', or 'none'. Using 'none' outputs the image tag in an anchor, or just the image tag by itself (depending on whether 'linked' is set to false).|
+|caption (used only with display:'raw')|boolean|false|Whether to include the image caption or not.|
 
-        
 <h2>License</h2>
 
 <p>fbPhotoStream is free to use under the <a href="http://jquery.org/license" target="_blank">MIT/GPL</a> license for any application.</p>
